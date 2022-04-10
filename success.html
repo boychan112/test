@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>회원가입 정보</legend>
+            <ul>
+                <li><label>아이디:<input type="text" name="user-id"></label><input type="button" value="중복확인"></li>
+                <li><label>비밀번호:<input type="password" name="password" name="user-pw"></label></li>
+                <li><label>이메일:<input type="email" name="user-email"></label></li>
+                <li><label>이름/성명:<input type="text" name="user-name"></label></li>
+                <li><label>전화번호<input type="tel" name="user-tel"></label></li>
+                <li>
+                    <select name="진로희망">
+                        <option>==진로희망==</option>
+                        <option value="공무원">공무원</option>
+                        <option value="일반사무직">일반사무직</option>
+                        <option value="기술/전문직">기술/전문직</option>
+                        <option value="기타">기타</option>
+                    </select>
+                </li>
+            </ul>
+            <br><br><br>
+            <input type="submit" value="등록"><input type="reset" value="취소">
+        </fieldset>
+    </form>
+    <a href="index.html">홈으로 돌아가기</a>
+</body>
+</html>
